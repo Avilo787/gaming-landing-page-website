@@ -1,0 +1,53 @@
+
+
+@media screen and (max-width:450px) {
+
+    .nav-container, .nav-items, .banner, .banner-text, .we-gamer,.online-games-images,.download-container {
+        flex-direction: column;
+}
+.games-genres{
+  
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 0;
+    padding-left: 0;
+    
+    
+}
+.footer-pera{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.download-container{
+    flex-direction: column;
+    align-items: center;
+}
+.download-title{
+margin-left: 5rem;
+}
+.download-text{
+    text-align: center;
+
+}
+.download-image{
+   width: 400px;
+   height: 900px;
+   object-fit: contain;
+}
+.small-image{
+    width: 225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
